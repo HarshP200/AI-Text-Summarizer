@@ -4,20 +4,26 @@ A simple Streamlit web app that summarizes long texts using the `facebook/bart-l
 
 ## 🚀 Features
 
-- Customizable summary length
-- Built with Streamlit
-- Uses a powerful BART model for abstractive summarization
+- ✨ Customizable summary length
+- ⚙️ Built with Streamlit
+- 🤖 Uses a powerful BART model for abstractive summarization
+- 💡 Automatically detects GPU support for faster generation (if available)
 
 ## 📦 Requirements
 
-Install dependencies:
+First, install all required dependencies:
+
 ```bash
 pip install -r requirements.txt
+```
 
-🖥️ Run the App
+## 🖥️ Run the App
 
-Command: streamlit run summarizer.py
+To start the Streamlit web application, run:
 
+```bash
+streamlit run summarizer.py
+```
 
 ## 📸 Screenshot
 
